@@ -6,8 +6,8 @@
 #include "connect-four.h"
 
 
-std::string red = "\033[31m";
-std::string yellow = "\033[33m";
+std::string red = "\033[38;5;196m";
+std::string yellow = "\033[38;5;226m";
 std::string reset = "\033[0m";
 
 void connectFour::drawBoard() // This function will be called by takeTurn
@@ -76,7 +76,7 @@ bool connectFour::gameEnded()  // this will be used as the condition for the whi
 		drawBoard();
 
 		std::cout << winner << " player wins!" << std::endl;
-		std::cout <<"\nPress any key to continue.." << std::endl;
+		std::cout <<"\nEnter any key to continue.." << std::endl;
 
 		char exit;
 		std::cin >> exit;
