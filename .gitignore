@@ -1,0 +1,13 @@
+# Compiled binaries
+connect-four/connect4
+guessingGame/game
+rock-paper-scissors/rps
+tictactoe/tictactoe
+
+# Object files
+*.o
+
+# Editor / OS junk
+*~
+*.swp
+.DS_Store
