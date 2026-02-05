@@ -3,7 +3,7 @@ connect-four/connect4
 guessingGame/game
 rock-paper-scissors/rps
 tictactoe/tictactoe
-
+wordle/wordle
 # Object files
 *.o
 
